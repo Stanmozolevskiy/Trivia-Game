@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+		<script src="https://code.jquery.com/jquery-2.2.3.js"
+			integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4="crossorigin="anonymous"></script>
+		<title>Trivia Game</title>
+	</head>
+	<body>
+
+		<div class="grid">
+			<div id="quiz">
+				<h1>Quiz</h1>
+				<div id="timer"></div>
+				<hr style="margin-bottom:20px;">
+				<div id="question"></div>
+
+				<div id="answers" class="buttons">
+					<button id="button0" class="answerchoice"><h4></h4></button>
+					<button id="button1" class="answerchoice"><h4></h4></button>
+					<button id="button2" class="answerchoice"><h4></h4></button>
+					<button id="button3" class="answerchoice"><h4></h4></button>
+				</div>
+				<hr style="margin-top:40px">
+			</div>
+			<h3 id="result"></h3>
+		</div>
+		<script src="assets/javascript/questions.js"></script>
+		<script src="assets/javascript/app.js"></script>
+	</body>
+</html>
