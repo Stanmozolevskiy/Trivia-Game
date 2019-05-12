@@ -16,10 +16,10 @@ background-color: #eeeeee;
 }
 .grid h1 {
     font-family: sans-serif;
-    background-color: #57636e;
+    background-color: #f0de49;
     font-size: 60px;
     text-align: center;
-    color: #ffffff;
+    color: #0f1010;
     padding: 2px 0px ;
     border-radius: 50px;
 }
@@ -33,40 +33,43 @@ background-color: #eeeeee;
 }
 #timer{
 	text-align: center;
-	color: #57636e;
+	color: #0f1010;
 }
 /* buttons */
 .buttons{
 	margin-top: 30px;
 }
-#startButton{
-	background-color: #57636e;
+.yellow-button{
+	background-color: #f0de49;
     width: 250px;
     font-size: 20px;
-    color: #ffffff;
+    color: #0f1010;
     border: 1px solid #1d3c6a;
     border-radius: 50px;
     margin: 100px 40% 10px 28%;
     padding: 10px 10px;
 }
 .answerchoice {
-	background-color: #57636e;
+	background-color: #f0de49;
     width: 250px;
     font-size: 20px;
-    color: #ffffff;
+    color: #0f1010 ;
     border: 1px solid #1d3c6a;
     border-radius: 50px;
     margin: 10px 40px 10px 0px;
     padding: 10px 10px;
 }
 .buttons.answerchoice :hover {
-	background: #6e8499;
-    cursor: pointer;  
+	background: #f0de49;
+    cursor: pointer;
+    border: none;
+    outline: none; 
 }
 .buttons :active {
-	background: #6e8499;
+	background: #f0de49;
 	border: none;
-    cursor: pointer;  
+    cursor: pointer;
+    outline: none 
 }
 #result{
     color: #5a6772;
@@ -76,5 +79,6 @@ background-color: #eeeeee;
 
 /* before start */
 button.answerchoice {
-	display: none;
+    display: none;
+    border: none;
 }
